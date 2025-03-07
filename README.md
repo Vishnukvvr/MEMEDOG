@@ -53,19 +53,7 @@ MEMEDOG is an interactive web application built with React that allows users to 
    http://localhost:3000
    ```
 
-## Project Structure
-```
-MemeVerse/
-│── public/         # Static assets
-│── src/
-│   ├── components/ # Reusable UI components
-│   ├── context/    # Global state management (likes & comments)
-│   ├── pages/      # App pages (Home, Meme Details)
-│   ├── styles/     # CSS stylesheets
-│   ├── utils/      # Helper functions
-│── package.json    # Project dependencies
-│── README.md       # Project documentation
-```
+
 
 ## Usage
 - **Liking a Meme:** Click the ❤️ button to increase the like count. The like count persists across pages.

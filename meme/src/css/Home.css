@@ -1,0 +1,212 @@
+.dark-mode .meme-card{
+ background-color: black;
+}
+.dark-mode .home-container{
+    background-color: black;
+}
+.dark-mode .title{
+    color: white;
+}
+.dark-mode .meme-card{
+    box-shadow: rgba(88, 88, 104, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+}
+.dark-mode .meme-title{
+    color: white;
+}
+.dark-mode .like-btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.dark-mode .download-btn{
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    background: black;
+    color: white;
+    border: 0;
+}
+.dark-mode .download-btn-1{
+    margin: 5px;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: 0;
+}
+.dark-mode .meme-likes{
+    color: white;
+}
+.dark-mode .meme-comments{
+    color: white;
+}
+.meme-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    padding: 30px;
+    color: hsl(0, 0%, 0%);
+    font-style: italic;
+}
+.meme-card{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 20px;
+    
+}
+
+.meme-image{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+.meme-title{
+    text-align: center;
+}
+.sub-meme{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.like-btn{
+    border: 0;
+    font-size: 1.5rem;
+    background-color: white;
+}
+.download-btn{
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 1.5rem;
+}
+.download-btn-1{
+    border: 0;
+    background-color: white;
+    margin: 5px;
+    font-size: 1rem;
+
+}
+.download-btn:hover{
+    background: linear-gradient(0deg,rgb(39, 49, 100),rgb(0, 145, 255));
+}
+.download-btn-1:hover{
+    color: blue;
+}
+.comment-input{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+}
+.dark-mode .comment-input{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+
+}
+.comment-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.dark-mode .comment-form{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+}
+.dark-mode .comment-btn{
+    background-color: rgb(55, 54, 54);
+
+}
+.comment-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 20px;
+    
+}
+.comment-btn:hover{
+    background-color: rgb(76, 9, 112);
+    color: white;
+}
+.comments{
+    margin: 10px;
+}
+.title-1{
+    padding: 10px;
+}
+.dark-mode .title-1{
+    color: aliceblue;
+}
+.filters input{
+    padding: 10px 20px ;
+    margin: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+@media (max-width: 700px){
+    .filters{
+      margin-top: 10px;
+    }
+    .title-1{
+        padding-top: 90px;
+    }
+}
+.load-more{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+
+.filters select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    appearance: none; 
+    box-shadow: none;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25623.png"); 
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 14px;
+    padding-right: 40px;
+}
+
+
+.filters select:hover {
+    background: #e0e0e0;
+    border-color: #888;
+}
+
+.filters select:focus {
+    border-color: #ff7993;
+}
+
+
+.filters select option {
+    background: white;
+    color: black;
+    padding: 10px;
+}

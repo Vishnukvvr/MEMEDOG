@@ -1,0 +1,53 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-full{
+    width: 300px;
+    height: auto;
+}
+.bg-green-500 {
+   
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.dark-mode .bg-green-500 {
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 10px;
+}
+.bg-blue-500{
+   
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.dark-mode  .bg-blue-500{
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 10px;
+}
+.rounded-lg{
+    height: auto;
+}
+.rounded-lg textarea{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    margin: 20px;
+}
